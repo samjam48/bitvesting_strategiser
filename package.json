@@ -1,0 +1,20 @@
+{
+  "name": "bitvesting",
+  "version": "1.0.0",
+  "description": "trial bot rules for best profit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "node-sass styles.scss styles.css"
+  },
+  "keywords": [
+    "bitcoin",
+    "investing",
+    "bot",
+    "robo-advisor",
+    "crypto",
+    "cryptocurrency"
+  ],
+  "author": "Sam Harris <s.w.h@live.co.uk> (https://samharris.eu)",
+  "license": "ISC"
+}

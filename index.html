@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/Users/samjam/Code/Projects/FCC/OnePageCV//styles.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body class="no-top-and-bottom-margins">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - 66
+        }, 500);
+    });
+    </script> -->
+
+    <div class="container">
+        <div class="inputs">
+            <form class="inputs-form">
+                <div>
+                    <p>Net Worth</p>
+                    <input type="number" />
+                </div>
+                <div>
+                    <p>Crypto Investment</p>
+                    <input type="number" />
+                </div>
+                <div>
+                    <p>Rebalance Gains %</p>
+                    <input type="number" />
+                </div>
+                <div>
+                    <p>Rebalance Losses %</p>
+                    <input type="number" />
+                </div>
+                <div>
+                    <p>Avg Fee %</p>
+                    <input type="number" value="2" />
+                </div>
+                <div>
+                    <p>Max Investment</p>
+                    <input type="number" value="2" />
+                </div>
+                <div>
+                    <p>Use Profits</p>
+                    <input type="checkbox" value="yes" />
+                    <input type="checkbox" value="no" />
+                </div>
+
+                <buttpn type="submit">
+                    Submit
+                </buttpn>
+            </form>
+        </div>
+
+        <br />
+
+        <table>
+            <thead>
+                <th>Net $</th>
+                <th>Crypto value</th>
+                <th>% Crypto</th>
+                <th>Fees</th>
+                <th>Net Fees</th>
+                <th>Profit/Loss</th>
+                <th>Bank</th>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>
